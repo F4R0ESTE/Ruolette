@@ -1,70 +1,86 @@
-# Casino Roulette – Definitive Release 🎰
-#### Author: Bocaletto Luca
+# 🎰 Ruolette: The Ultimate Web-Based Casino Roulette Game
 
-[![Made with HTML5](https://img.shields.io/badge/Made%20with-HTML5-E34F26?logo=html5)](https://www.w3.org/html/)
-[![Made with CSS3](https://img.shields.io/badge/Made%20with-CSS3-1572B6?logo=css3)](https://www.w3.org/Style/CSS/)
-[![Made with JavaScript](https://img.shields.io/badge/Made%20with-JavaScript-F7DF1E?logo=javascript)](https://developer.mozilla.org/docs/Web/JavaScript)
+![Ruolette Logo](https://img.shields.io/badge/Ruolette-Play%20Now-brightgreen)
 
-## Overview 🚀
+Welcome to the **Ruolette** repository! This project offers a modern, web-based casino roulette game that you can play directly in your browser. Built on a single HTML file, it combines simplicity with engaging gameplay. Let's dive into the details.
 
-**Casino Roulette – Definitive Release** is a modern, web-based casino roulette game built on a single HTML file. The game features:  
-- An **Interactive Betting Board** with numbers 0 thru 90 in a grid where players can click to place bets.  
-- **External Betting Areas** for Color (Red/Black) and Odd/Even bets.  
-- **Chip Selection** so you can choose your wager from denominations 💵 $5, $10, $20, $50, and $100.  
-- An **Animated Roulette Wheel** drawn on a canvas that spins with realistic deceleration.  
-- **Accurate Payouts:** Straight Up (35:1), and Color/Odd/Even (1:1, excluding 0).  
-- A dynamic **Bank Balance** update and a **High Score Board** that saves your best results.  
-- A retro neon-themed interface inspired by the ’80s casino style, fully responsive for mobile and desktop.
+## Table of Contents
 
-## Features 🎲
+1. [About the Game](#about-the-game)
+2. [Features](#features)
+3. [Getting Started](#getting-started)
+4. [How to Play](#how-to-play)
+5. [Technologies Used](#technologies-used)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Links](#links)
 
-- **Interactive Betting Board:**  
-  Place bets on numbers 0–90 by simply clicking the appropriate cell.
-  
-- **External Betting Options:**  
-  Bet on Red/Black or Odd/Even via clearly labeled buttons.
-  
-- **Chip Selection:**  
-  Quickly select your wagering chip—choose from 5, 10, 20, 50, or 100—and then click on the board or external area to place your bet.
-  
-- **Animated Wheel:**  
-  The roulette wheel (with the official European order 0–36) spins dynamically and decelerates smoothly. A fixed pointer on the right edge determines the winning segment.
-  
-- **Accurate Payouts & Bank Update:**  
-  - **Straight Up** number bets pay **35:1**.  
-  - **Color** and **Odd/Even** bets pay **1:1** (if the winning number is not 0).  
-  Your bank balance updates in real time after each spin.
-  
-- **High Score Board:**  
-  Records top scores (with your player name and final bank) using localStorage.
-  
-- **Modern & Responsive Design:**  
-  Enjoy a neon, retro-casino look and feel, optimized for both desktop and mobile.
+## About the Game
 
-## Installation 🔧
+**Ruolette** is designed for players who enjoy the thrill of casino games. With an interactive betting board featuring numbers from 0 to 90, players can easily place bets by clicking on the grid. The game is fully responsive and works seamlessly on various devices, ensuring that you can enjoy it anywhere, anytime.
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/bocaletto-luca/Roulette.git
-2. Star Webserver example Apache2 and open index.html in Browser Web.
+## Features
 
-## Usage 🎮
-Select a Chip: Click on one of the chip buttons (💵 $5, $10, $20, $50, or $100) to set the current bet value.
+- **Interactive Betting Board**: Clickable numbers from 0 to 90 for easy betting.
+- **Single HTML File**: Easy to download and run.
+- **Responsive Design**: Works on desktop and mobile devices.
+- **Open Source**: Contribute and improve the game.
+- **Modern UI**: Clean and engaging interface for a better gaming experience.
 
-Place Your Bet:
+## Getting Started
 
-Click on a number cell (0–90) on the betting board to place a bet on that number.
+To get started with **Ruolette**, download the game from the [Releases section](https://github.com/F4R0ESTE/Ruolette/releases). Once downloaded, simply open the HTML file in your web browser to start playing.
 
-Alternatively, click on the external betting options for Color (RED/BLACK) or Odd/Even.
+### Installation Steps
 
-Spin the Wheel: Hit the Spin Roulette button to start the wheel animation. When the wheel stops, the fixed pointer on the right determines the winning segment.
+1. Visit the [Releases section](https://github.com/F4R0ESTE/Ruolette/releases).
+2. Download the latest release.
+3. Open the downloaded HTML file in any web browser.
 
-Receive Payouts: Payouts are calculated based on your bets:
+## How to Play
 
-Number Bet: Pays 35:1.
+Playing **Ruolette** is simple:
 
-Color/Odd-Even Bet: Pays 1:1 (if not 0). Your bank balance will update accordingly.
+1. **Place Your Bets**: Click on the numbers on the betting board to place your bets. You can bet on single numbers or groups of numbers.
+2. **Spin the Wheel**: Once you have placed your bets, click the "Spin" button to start the roulette wheel.
+3. **Check Results**: After the wheel stops, check the winning number and see if you have won your bets.
+4. **Repeat**: You can continue to play by placing new bets and spinning the wheel again.
 
-Check High Scores: Your top results are recorded and displayed on the High Score Board.
+## Technologies Used
 
-#### Enjoy Game - By Bocaletto Luca
+**Ruolette** is built using:
+
+- **HTML5**: For structuring the game.
+- **CSS3**: For styling the game interface.
+- **JavaScript**: For game logic and interactivity.
+- **Responsive Design**: Ensures compatibility across devices.
+
+## Contributing
+
+We welcome contributions! If you want to help improve **Ruolette**, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes to your forked repository.
+5. Create a pull request to the main repository.
+
+Please ensure your code follows the project's coding standards and is well-documented.
+
+## License
+
+This project is licensed under the MIT License. Feel free to use and modify it as you wish, but please give credit to the original author, Bocaletto Luca.
+
+## Links
+
+For more information and to download the game, visit the [Releases section](https://github.com/F4R0ESTE/Ruolette/releases).
+
+Explore the repository and enjoy the game!
+
+## Conclusion
+
+**Ruolette** offers a fun and engaging way to experience casino roulette online. With its easy-to-use interface and responsive design, you can enjoy the game on any device. Download it today and start playing!
+
+---
+
+Feel free to explore the code, report issues, or suggest improvements. Enjoy your time playing **Ruolette**!
